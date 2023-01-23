@@ -1,8 +1,11 @@
 import React from 'react'
+import Layout from '../component/Layout/Layout'
 
 function PromotionsPage() {
   return (
-    <div>PromotionsPage</div>
+    <Layout>
+      PromotionsPage
+    </Layout>
   )
 }
 

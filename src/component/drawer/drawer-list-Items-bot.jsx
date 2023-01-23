@@ -34,10 +34,10 @@ const Pages = [
     
 ]
 
-function SecondaryListDrawerItemsComponent() {
+function SecondaryListDrawerItems() {
     const navigte = useNavigate();
     return (
-      <React.Fragment>
+      <>
       <ListSubheader component="div" inset>
          จัดการหลังร้าน
         </ListSubheader>
@@ -50,8 +50,8 @@ function SecondaryListDrawerItemsComponent() {
       </ListItemButton>
       ))}
       
-    </React.Fragment>
+    </>
     )
 }
 
-export default SecondaryListDrawerItemsComponent
+export default SecondaryListDrawerItems

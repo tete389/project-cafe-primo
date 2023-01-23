@@ -9,10 +9,9 @@ import "./index.css";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <Provider store={store}>
     <>
-      {/* <StyledEngineProvider injectFirst> */}
-      <App />
-      {/* </StyledEngineProvider> */}
+      <StyledEngineProvider injectFirst>
+        <App />
+      </StyledEngineProvider>
     </>
-    ,
   </Provider>
 );

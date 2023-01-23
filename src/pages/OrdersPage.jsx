@@ -1,14 +1,12 @@
-import React from 'react'
-
+import React from "react";
+import Layout from "../component/Layout/Layout";
 
 function OrdersPage() {
   return (
-    <>
-    <p>OrdersPage</p>
-    
-    </>
-    
-  )
+    <Layout>
+      <p>OrdersPage</p>
+    </Layout>
+  );
 }
 
-export default OrdersPage
+export default OrdersPage;

@@ -3,8 +3,7 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import Box from '@mui/material/Box';
 
-import AppBarComponent from '../component/AppBarComponent';
-import DrawerComponent from '../component/DrawerComponent';
+
 
 
 
@@ -23,8 +22,8 @@ function HomePage() {
         <ThemeProvider theme={mdTheme}>
         <Box sx={{ display: 'flex' }}>
           <CssBaseline />
-            <AppBarComponent isWebOpen={webOpen} isMobileOpen={mobileOpen} toggleWebDrawer={() => setWebOpen(!webOpen)} toggleMobileDrawer={() => setMobileOpen(!mobileOpen)}/>
-            <DrawerComponent isWebOpen={webOpen} isMobileOpen={mobileOpen} toggleWebDrawer={() => setWebOpen(!webOpen)} toggleMobileDrawer={() => setMobileOpen(!mobileOpen)} /> 
+            {/* <AppBarComponent isWebOpen={webOpen} isMobileOpen={mobileOpen} toggleWebDrawer={() => setWebOpen(!webOpen)} toggleMobileDrawer={() => setMobileOpen(!mobileOpen)}/>
+            <DrawerComponent isWebOpen={webOpen} isMobileOpen={mobileOpen} toggleWebDrawer={() => setWebOpen(!webOpen)} toggleMobileDrawer={() => setMobileOpen(!mobileOpen)} />  */}
         </Box>
       </ThemeProvider>
       

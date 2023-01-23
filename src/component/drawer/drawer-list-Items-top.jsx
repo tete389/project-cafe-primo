@@ -37,7 +37,7 @@ const Pages = [
 
 
 
-function MainListDrawerItemsComponent() {
+function MainListDrawerItems() {
     const navigte = useNavigate();
   return (
     <>
@@ -54,4 +54,4 @@ function MainListDrawerItemsComponent() {
   )
 }
 
-export default MainListDrawerItemsComponent
+export default MainListDrawerItems
