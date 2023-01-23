@@ -1,12 +1,10 @@
 {
-  "homepage": "https://tete389.github.io/project-cafe-primo",
   "name": "cafe-primo-frontend",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "poxy": "http://localhost:8080",
   "scripts": {
-    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
